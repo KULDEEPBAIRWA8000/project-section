@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web page</title>
+    <style>
+        * {
+            padding: 0;
+            /* margin-bottom:15px; */
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            width: 100%;
+            height: 80px;
+            /* background-color: gainsboro; */
+            background-image: url(https://th.bing.com/th/id/OIP.vlFp_jWM3fklHxAHuX1MyAHaEo?pid=ImgDet&rs=1);
+            background-size: cover;
+        }
+
+        nav {
+            display: flex;
+            padding: 25px;
+            justify-content: space-between;
+        }
+
+        nav .left {
+            display: flex;
+        }
+
+        nav .left h1 {
+            font-size: 30px;
+            font-weight: 900;
+            padding-left: 20px;
+            color: white;
+        }
+
+        nav .left h1:hover {
+            text-decoration: underline #000;
+        }
+
+        nav .left img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        nav .right ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav .right ul li {
+            list-style: none;
+            margin-right: 20px;
+            text-align: center;
+            font-size: 19px;
+        }
+
+        nav .right ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav .right ul li a:hover {
+            text-decoration: underline;
+            color: black;
+            font-size: 20px;
+        }
+
+
+        section .full-img img {
+            height: 440px;
+            width: 90%;
+            margin-bottom: 25px;
+            margin-left: 62px;
+        }
+
+        section .full-img img:hover {
+
+            filter: drop-shadow(7px 9px 14px rgb(177, 62, 62));
+        }
+
+        .img {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .img img {
+            background-size: cover;
+            width: 45%;
+            height: 360px;
+        }
+
+        .img img:hover {
+
+            filter: drop-shadow(7px 9px 14px rgb(177, 62, 62));
+        }
+
+        section div {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            width: 100%;
+            height: 300px;
+            background-color: blueviolet;
+        }
+        
+        .footer{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+
+        footer h1 {
+            text-align: center;
+            font-size: 30px;
+            color: purple;
+        }
+
+        footer .left iframe {
+            width: 400px;
+            height: 250px;
+            padding: 10px 0 0 30px;
+            /* align-items: center; */
+            /* justify-content: center; */
+        }
+
+        .footer .right{
+            margin-top: 40px;
+        }
+
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img src="https://i.pinimg.com/474x/8f/aa/f6/8faaf6424c1c1a77c910e253b635b571.jpg" alt="">
+                <h1>Web Page Desigening</h1>
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#full-img">Imgage's</a></li>
+                    <li><a href="#top attractions sport">Project</a></li>
+                    <li><a href="#top attractions">About</a></li>
+                    <li><a href="#contact">contact us</a></li>
+                    <li><a href="#">Service Us </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <h1><a name="full-img"> Images</a></h1>
+        <div class="full-img">
+            <img src="https://www.bwallpaperhd.com/wp-content/uploads/2021/01/NashPoint.jpg" alt="">
+        </div>
+        <hr>
+        <div class="img">
+            <img src="https://www.informaticaforense.com.co/wp-content/uploads/2020/09/hacker127997362.png" alt=""> <img
+                src="https://pngimg.com/uploads/hacker/hacker_PNG20.png" alt="">
+        </div>
+
+        <div class="top">
+            <h1><a name="top attractions sport">Top Attractions Sport</a></h1>
+            <p>By: Akshay Sir</p>
+            <p>Published: 2 Days Age</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellat natus, iste beatae praesentium
+                illo fugit officiis earum sint dolores minus sit!</p>
+        </div>
+
+        <div class="italy">
+            <h1>1. Florence, Italy</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, a? Beatae voluptatibus quisquam in
+                dicta, nulla quae adipisci alias, vel veniam omnis tenetur consequatur quia recusandae rerum laborum.
+                Mollitia illum modi explicabo! Id sunt quia eum expedita odit necessitatibus. Ipsum ex accusantium velit
+                quas? Dolore ipsam porro tempore sit blanditiis, dolor Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Provident, omnis.
+                <a href="#">Learn More.</a>
+            </p>
+        </div>
+
+        <div class="top-attractions">
+            <h2>Top Attractions</h2>
+            <ul>
+                <li>Museums</li>
+                <li>Bike Tours</li>
+                <li>Historical Monument</li>
+            </ul>
+        </div>
+
+        <div class="china">
+            <h1>2. Beijing, China</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, a? Beatae voluptatibus quisquam in
+                dicta, nulla quae adipisci alias, vel veniam omnis tenetur consequatur quia recusandae rerum laborum.
+                Mollitia illum modi explicabo! Id sunt quia eum expedita odit necessitatibus. Ipsum ex accusantium velit
+                quas? Dolore ipsam porro tempore sit blanditiis, dolor Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Provident, omnis.
+                <a href="#">Learn More.</a>
+            </p>
+        </div>
+
+        <div class="top-attractions">
+            <h2><a name="top attractions">Top Attractions</a></h2>
+            <ul>
+                <li>Biking</li>
+                <li>Historical Sites</li>
+                <li>Restaurants and Dining</li>
+            </ul>
+        </div>
+        <h1>3. Seoul, South Korea</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, a? Beatae voluptatibus quisquam in dicta,
+            nulla quae adipisci alias, vel veniam omnis tenetur consequatur quia recusandae rerum laborum. Mollitia
+            illum modi explicabo! Id sunt quia eum expedita odit necessitatibus. Ipsum ex accusantium velit quas? Dolore
+            ipsam porro tempore sit blanditiis, dolor Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Provident, omnis.
+            <a href="#">Learn More.</a>
+        </p>
+        </div>
+
+        <div class="top-attractions">
+            <h2>Top Attractions</h2>
+            <ul>
+                <li>Parasailing</li>
+                <li>Segway Tours</li>
+                <li>Spas and Resorts</li>
+            </ul>
+        </div>
+        <div class="More Destinations">
+            <h2>More Destinations</h2>
+            <ul>
+                <li>Jackson Hole, Wyoming</li>
+                <li>Cape Town, South Africa</li>
+                <li>La Paz, Bolivia</li>
+            </ul>
+            <p>__Best of luck with your travels, and be sure to sand pictures and stories. We'd love to hear them!</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <h1>&#9758;Kuldeep Tatawat Web Side&#9756; &nbsp;</h1>
+
+       <div class="footer">
+        <div class="left">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.547718509044!2d75.82531047607345!3d26.79068337672013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dc999fdde3223%3A0x7a5cf154fd265d73!2sC.I.I.T.M.%20COLLEGE!5e0!3m2!1sen!2sin!4v1696585195992!5m2!1sen!2sin"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="right">
+           <a name="contact"> <li>C.I.T.M COLLAGE</li></a>
+            <li>Sitapura Jaipur</li>
+            <li>800924053</li>
+            <li>skkuldeeptatawat@gmail.com</li>
+            
+        </div>
+
+        <div class="right">
+            <li>C.I.T.M COLLAGE</li>
+            <li>Sitapura Jaipur</li>
+            <li>800924053</li>
+            <li>skkuldeeptatawat@gmail.com</li>
+            
+        </div>
+       </div>
+    </footer>
+
+</body>
+
+</html>
